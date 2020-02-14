@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.exception.ExceptionNotFound;
-import com.example.demo.hibernate.util.HibernateUtil;
 import com.example.demo.model.UsuarioEntity;
 import com.example.demo.repository.UsuarioRepository;
 import com.example.demo.security.JwtTokenUtil;
